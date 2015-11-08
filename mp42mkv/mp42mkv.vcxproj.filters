@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headers\mp4">
+      <UniqueIdentifier>{1f52ba8c-10d2-41b7-a215-3c1abe189080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\mkv">
+      <UniqueIdentifier>{f21e88eb-6aee-4271-99e6-011ce2320e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\mp4">
+      <UniqueIdentifier>{dfc0d24c-15a5-4b66-89d6-ffa3d32ef82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\mkv">
+      <UniqueIdentifier>{67f4224e-cc20-4f8a-a17d-cf6641c86169}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mkv\AkaMatroska.cpp">
+      <Filter>Sources\mkv</Filter>
+    </ClCompile>
+    <ClCompile Include="mkv\AkaMatroskaEbml.cpp">
+      <Filter>Sources\mkv</Filter>
+    </ClCompile>
+    <ClCompile Include="mp4\Internal\IsomCodec.cpp">
+      <Filter>Sources\mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="mp4\Internal\IsomParser.cpp">
+      <Filter>Sources\mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="mp4\Internal\IsomParserCore.cpp">
+      <Filter>Sources\mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="mp4\Internal\IsomParserMetadata.cpp">
+      <Filter>Sources\mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="mp4\Internal\IsomParserStream.cpp">
+      <Filter>Sources\mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="mp4\Aka4Splitter.cpp">
+      <Filter>Sources\mp4</Filter>
+    </ClCompile>
+    <ClCompile Include="mp4\Aka4SplitterMisc.cpp">
+      <Filter>Sources\mp4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mkv\AkaMatroska.h">
+      <Filter>Headers\mkv</Filter>
+    </ClInclude>
+    <ClInclude Include="mkv\AkaMatroskaConst.h">
+      <Filter>Headers\mkv</Filter>
+    </ClInclude>
+    <ClInclude Include="mkv\AkaMatroskaEbml.h">
+      <Filter>Headers\mkv</Filter>
+    </ClInclude>
+    <ClInclude Include="mkv\AkaMatroskaGlobal.h">
+      <Filter>Headers\mkv</Filter>
+    </ClInclude>
+    <ClInclude Include="mkv\AkaMatroskaIOCallback.h">
+      <Filter>Headers\mkv</Filter>
+    </ClInclude>
+    <ClInclude Include="mkv\AkaMatroskaObject.h">
+      <Filter>Headers\mkv</Filter>
+    </ClInclude>
+    <ClInclude Include="mkv\AkaMatroskaPrehead.h">
+      <Filter>Headers\mkv</Filter>
+    </ClInclude>
+    <ClInclude Include="mkv\AkaMatroskaStructTable.h">
+      <Filter>Headers\mkv</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Internal\GlobalPrehead.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Internal\IsomCodec.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Internal\IsomError.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Internal\IsomGlobal.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Internal\IsomObject.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Internal\IsomParser.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Internal\IsomStreamSource.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Internal\IsomTypes.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Internal\StructTable.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="mp4\Aka4Splitter.h">
+      <Filter>Headers\mp4</Filter>
+    </ClInclude>
+    <ClInclude Include="io_spec.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="io_read_mp4.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="io_write_mkv.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
