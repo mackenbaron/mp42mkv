@@ -1,5 +1,9 @@
 # mp42mkv
 
+## env
+ - Visual Studio 2013 +
+ - gcc (Non full tested)
+
 ## codecs
  - Audio: AAC\MP3\AC3\DTS\ALAC
  - Video: H264\HEVC\MPEG4(XVID)
